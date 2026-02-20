@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dezcobra
 
-## Getting Started
+Descubra seu valor através de quizzes inteligentes.
 
-First, run the development server:
+Uma plataforma web moderna construída com Next.js que analisa perfil,
+comportamento e potencial do usuário e gera resultados visuais
+interativos com classificação, ranking global e score personalizado.
 
-```bash
+------------------------------------------------------------------------
+
+## Funcionalidades
+
+-   Quiz interativo multi-step
+-   Cálculo dinâmico de score
+-   Sistema de classes (SS, S, A, B, C)
+-   Ranking global visual
+-   Gráfico radial animado
+-   Resultado compartilhável por link
+-   Internacionalização (i18n)
+-   Arquitetura escalável
+
+------------------------------------------------------------------------
+
+## Stack
+
+**Frontend** - Next.js 15 - React 19 - TypeScript - Tailwind CSS
+
+**Charts** - Recharts
+
+**Arquitetura** - App Router - Server Components - Client Components -
+Stateless results
+
+------------------------------------------------------------------------
+
+## Estrutura
+
+    src/
+      app/
+      components/
+      services/
+      i18n/
+      data/
+
+------------------------------------------------------------------------
+
+## Instalação
+
+``` bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+------------------------------------------------------------------------
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+``` bash
+npm run build
+npm start
+```
 
-## Learn More
+------------------------------------------------------------------------
 
-To learn more about Next.js, take a look at the following resources:
+## Internacionalização
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Suporte:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    /pt
+    /en
+    /es (pendente)
 
-## Deploy on Vercel
+------------------------------------------------------------------------
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Performance
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   Server‑side rendering
+-   Zero database requirement
+-   URL‑based state
+-   Alta performance
+
+------------------------------------------------------------------------
+
+## Roadmap
+
+-   Novos quizzes
+-   Sistema de usuários
+-   Exportar resultado como imagem
+-   Analytics
+-   Ranking global persistente
+
+------------------------------------------------------------------------
+
+## Licença
+
+MIT
+
+------------------------------------------------------------------------
+
+## Status
+
+Em desenvolvimento ativo
