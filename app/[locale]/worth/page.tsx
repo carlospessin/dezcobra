@@ -1,5 +1,5 @@
 import type { Locale } from "@/i18n/config";
-import WorthQuizWizard from "@/components/worth/WorthQuizWizard";
+import WorthQuizWizard from "@/components/quiz/worth/WorthQuizWizard";
 
 export default async function WorthQuizPage({
   params,

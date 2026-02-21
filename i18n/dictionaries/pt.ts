@@ -35,6 +35,10 @@ const pt = {
       title: "Qual animal voc\u00EA \u00E9?",
       description: "Descubra sua verdadeira forma",
     },
+    orkut: {
+      title: "Como seria seu perfil no Orkut?",
+      description: "Descubra seu perfil na internet raiz",
+    },
   },
 };
 

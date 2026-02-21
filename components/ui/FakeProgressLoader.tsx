@@ -21,7 +21,7 @@ export default function FakeProgressLoader({
     steps,
     onComplete,
     progressLabel = "progresso",
-    dramaticPauseMs = 1200,
+    dramaticPauseMs = 200,
     className = "",
 }: Props) {
     const [progress, setProgress] = useState(0);
@@ -44,7 +44,7 @@ export default function FakeProgressLoader({
                 increment = Math.random() * 0.6;
 
             else if (current < 98)
-                increment = Math.random() * 0.15;
+                increment = Math.random() * 0.3;
 
             else increment = 0;
 

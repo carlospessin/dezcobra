@@ -6,7 +6,8 @@ export type QuizId =
   | "mental_age"
   | "future"
   | "soulmate"
-  | "animal";
+  | "animal"
+  | "orkut";
 
 export type QuizBase = {
   id: QuizId;
@@ -64,4 +65,13 @@ export const quizCatalog: QuizBase[] = [
     color: "from-green-400 to-emerald-600",
     category: "fun",
   },
+  {
+    id: "orkut",
+    href: "/orkut",
+    emoji: "\u{1F464}",
+    color: "from-blue-400 to-indigo-600",
+    category: "personality",
+  },
+  
 ];
+

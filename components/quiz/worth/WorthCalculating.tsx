@@ -7,7 +7,7 @@ import FakeProgressLoader from "@/components/ui/FakeProgressLoader";
 import {
   buildWorthResult,
   type WorthAnswers,
-} from "@/services/worthQuiz";
+} from "@/services/worth/worthQuiz";
 
 function decodeBase64Url(input: string): string {
   const base64 = input.replace(/-/g, "+").replace(/_/g, "/");

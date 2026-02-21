@@ -18,3 +18,12 @@
 .transition-all {
   transition: all 0.3s ease-out;
 }
+
+@font-face {
+  font-family: "Orkut";
+  src: local("Verdana"), local("Arial");
+}
+
+.font-orkut {
+  font-family: Verdana, Arial, sans-serif;
+}

@@ -1,6 +1,6 @@
 import { Suspense } from "react";
 import type { Locale } from "@/i18n/config";
-import WorthCalculating from "@/components/worth/WorthCalculating";
+import WorthCalculating from "@/components/quiz/worth/WorthCalculating";
 
 export default async function WorthCalculatingPage({
   params,

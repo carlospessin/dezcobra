@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import CategoryTabs from "@/components/CategoryTabs";
 import QuizCard from "@/components/QuizCard";
 import type { Quiz, QuizCategory } from "@/data/quizzes";
+import OrkutProfileMobile from "./quiz/orkut/OrkutProfileMobile";
 
 type CategoryKey = "all" | QuizCategory;
 

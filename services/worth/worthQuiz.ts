@@ -1,4 +1,4 @@
-import { ValueCalculator } from "@/services/valueCalculator";
+import { ValueCalculator } from "@/services/worth/valueCalculator";
 
 export type WorthAnswers = {
   name: string;

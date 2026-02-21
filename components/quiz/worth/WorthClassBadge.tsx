@@ -2,7 +2,7 @@
 
 import type {
     WorthClassKey,
-} from "@/services/worthQuiz";
+} from "@/services/worth/worthQuiz";
 
 type Props = {
     classKey: WorthClassKey;

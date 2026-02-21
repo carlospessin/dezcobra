@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Locale } from "@/i18n/config";
-import ShareResultButton from "@/components/worth/ShareResultButton";
+import ShareResultButton from "@/components/ShareResultButton";
 import WorthRadialChart from "@/components/charts/WorthRadialChart";
-import WorthClassBadge from "@/components/worth/WorthClassBadge";
+import WorthClassBadge from "@/components/quiz/worth/WorthClassBadge";
 import { getDictionary } from "@/i18n/getDictionary";
-import WorthRankingBadge from "@/components/worth/WorthRankingBadge";
+import WorthRankingBadge from "@/components/quiz/worth/WorthRankingBadge";
+import ShareButton from "@/components/ShareResultButton";
 
 type WorthResultPayload = {
   score: number;
@@ -130,7 +131,7 @@ export default async function WorthResultPage({
         </div>
 
         <div className="mt-4 flex justify-center">
-          <ShareResultButton shareUrl={shareUrl} />
+          <ShareButton url={shareUrl} />
         </div>
 
         <div className="mt-4 flex justify-center">

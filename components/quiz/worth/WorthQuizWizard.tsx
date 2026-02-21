@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import type { WorthAnswers } from "@/services/worthQuiz";
+import type { WorthAnswers } from "@/services/worth/worthQuiz";
 
 type ChoiceQuestion = {
   kind: "choice";
@@ -154,11 +154,10 @@ export default function WorthQuizWizard({ locale }: { locale: string }) {
                 key={option}
                 type="button"
                 onClick={() => updateChoice(question.id, index)}
-                className={`rounded-xl border px-4 py-3 text-left transition ${
-                  active
+                className={`rounded-xl border px-4 py-3 text-left transition ${active
                     ? "border-green-500 bg-green-50 text-green-800"
                     : "border-gray-300 bg-white text-gray-800 hover:border-gray-400"
-                }`}
+                  }`}
               >
                 {option}
               </button>

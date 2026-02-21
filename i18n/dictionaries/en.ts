@@ -35,6 +35,10 @@ const en = {
       title: "What animal are you?",
       description: "Discover your true form",
     },
+    orkut: {
+      title: "What would your Orkut profile look like?",
+      description: "Discover your profile on the old internet",
+    },
   },
 };
 
